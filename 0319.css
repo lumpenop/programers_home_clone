@@ -1,0 +1,220 @@
+/*CSS FILE*/
+
+
+*{margin:0; padding:0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body, html{
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.header{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    height:46px;
+    background:#0c151c;
+}
+
+.logo{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.header_con{
+    width:1200px;
+    margin:0 auto;
+    
+}
+
+.header_con>ul{
+    text-align:center;
+}
+
+.header_com>ul>li{
+    float:left;
+}
+
+.header_con>ul>li>a{
+    color:#B2C0CC;
+}
+
+.user_nav{
+    position:absolute;
+    top:0;
+    right:0;
+    text-align:center;
+}
+
+.user_nav>li{
+    float:left;}
+
+.main_nav{
+    text-align:center;
+}
+.main_nav>li{
+    display:inline-block;
+}
+.header_con>ul>li:hover{
+    color:white;
+}
+
+/********************hero section*******************/
+.hero_section{
+    width:100%;
+    background:#0c151c;
+}
+
+.hero_main{
+    width: 50%;
+    float: left;
+    
+}
+
+.hero_main img{
+    float: left;
+}
+
+.hero_main>h6{
+    color:#0078FF;
+}
+
+.hero_main>h1{
+    color:#fff;
+}
+
+.hero_main>h4{
+    color:white;
+}
+
+
+/************container*********************/
+
+.container>h4>a{
+    border:1px solid #0078ff;
+    color:#0078ff;
+    height:30px;
+    width:74px;
+    border-radius: 5px;
+    display:inline-block;
+    text-align:center;
+    line-height:30px;
+}
+
+.container,
+.hero_container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hero_container{
+    padding:0;
+}
+
+.container{
+    padding: 0 16px;
+}
+
+
+/*********************root_section***************************/
+
+.root_competition{
+    width: 48.5%;
+    float: left;
+    position: relative;
+}
+
+.root_img{
+    height: 14.375rem;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.root_competition img{
+    height: 100%;
+    width: auto;
+    position: relative;
+    transform: translate(-20%);
+}
+
+.start{
+    margin-right: 32px;
+}
+
+.root_section > .container > a{
+    position: relative;
+
+}
+
+.root_info{
+    padding: 16px;
+}
+
+.root_btn{
+    float: right;
+}
+
+.root_info > img {
+    display: block;
+}
+
+.lable{
+    position: absolute;
+    z-index: 1;
+    color: #fff ;
+    font-size: 18px;
+    transform: rotate(-45deg);
+    bottom: 260px;
+    left: -57px;
+    
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 196px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #142029;
+}
+
+.lable:before{
+    position: absolute;
+    content: " ";
+    display: block; 
+    left: -52px;
+    top: 50px;
+    border: 9px solid #B2C0CC;;
+    transform: rotate(180deg);
+    border-top: 9px solid transparent;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    
+
+}
+
+
+
+.lable:after{
+    position: absolute;
+    content: " ";
+    display: block; 
+    left: 129px;
+    top: 50px;
+    border: 9px solid #B2C0CC;;
+    transform: rotate(180deg);
+    border-top: 9px solid transparent;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+
+ 
+}
