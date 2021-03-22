@@ -761,8 +761,12 @@ footer{
 }
 
 .footer_title{
-    font-size: 14px;
     margin-bottom: 10px;
+}
+
+.footer_title a{
+    font-size: 14px;
+    color: black;
 }
 
 .footer_nav a{
