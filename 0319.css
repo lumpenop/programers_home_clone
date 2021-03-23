@@ -231,11 +231,11 @@ a{
     border-radius: 10px 10px 0 0 ;
 }
 
-.root_competition img{
+.root_img > img{
     height: 100%;
     width: auto;
     position: relative;
-    transform: translate(-20%);
+    transform: translate(-340px);
 }
 
 .start{
@@ -260,9 +260,7 @@ a{
     float: right;
 }
 
-.root_info > img {
-    display: block;
-}
+
 
 .root_section h4{
     margin-bottom: 16px;
@@ -289,8 +287,8 @@ a{
 }
 
 .root_info img{
-    position: relative;
-    left: 10%;
+   
+
     margin-top: 16px;
     width: 270px;
     height: 38px;
@@ -698,9 +696,10 @@ a{
 
 .partner_list img{
     width: 100%;
-    max-width: 10rem;
+    max-width: 200px;
     height: auto;
     max-height: 2.5rem;
+    box-sizing: border-box;
 }
 
 .partner_list li{
@@ -712,8 +711,8 @@ a{
 
 .partner_list{
     display: block;
-    width: 970px;
-    margin: 80px auto 120px auto;
+    width: 1200px;
+    margin: 80px 0 120px 0;
 }
 
 /***** partner banner *****/
